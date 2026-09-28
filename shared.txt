@@ -1,0 +1,5 @@
+git checkout main
+echo "Это общая строка для теста конфликта" > shared.txt
+git add shared.txt
+git commit -m "Добавлен общий файл shared.txt"
+git push origin main
