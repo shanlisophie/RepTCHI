@@ -1,5 +1,9 @@
 git checkout main
+<<<<<<< HEAD
 echo "Это общая строка для теста конфликта" > shared.txt меняю чтобы не было конфликт
+=======
+echo "Это общая строка для теста конфликта" > shared.txt создаю конфликт
+>>>>>>> f9fcde9412a2fc57881c01ace33b05d7d06a20b1
 git add shared.txt
 git commit -m "Добавлен общий файл shared.txt"
 git push origin main
